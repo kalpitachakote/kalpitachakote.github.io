@@ -22,11 +22,17 @@ jQuery('.navbar-default').addClass('opaqued');
 var windowsHeight = $(window).height();
   $('#headerwrap').css('height', windowsHeight + 'px');
 
-  $('#headerwrap').backstretch([
-        "images/bg1.jpg"
-      , "images/bg2.jpg"
-      , "images/bg3.jpg"
-    ], {duration: 3000, fade: 750});
+  $("#headerwrap").backstretch(
+    [
+      "slides/kalpitaslide1.jpeg",
+      "slides/Kalpitaslide2.jpg",
+      "slides/kalpitaslide3_cropped.jpg",
+      "slides/kalpitaslide4.jpg",
+      "slides/kalpitaslide5.jpg",
+      "slides/kalpitaslide6.jpg",
+    ],
+    { duration: 3000, fade: 750 }
+  );
 
 jQuery(document).ready(function(){
 
